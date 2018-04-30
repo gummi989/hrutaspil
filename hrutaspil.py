@@ -20,6 +20,8 @@ class Hrutar:
         print('Nafn:' ,self.nöfn)
         print('Þyngd:' ,self.þyngd)
         print('Mjólk:' ,self.mjólk)
+
+        
         print('Ull:' ,self.ull)
         print('Fjöldafkvæma:' ,self.fjöldiafkvæma)
         print('Einkunnalæris:' ,self.einkunnlæris)
@@ -44,6 +46,24 @@ spilastokkur=[]
 for stak in spil:
     temp = stak.split(",")
     splitstokkur.append(Hrutar(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5], temp[6], temp[7], temp[8]))
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       def Spilastokkur():
+        suits = ["spade","club","heart","diamond"]
+        faces = [2,3,4,5,6,7,8,9,10,"jack","queen","king","ace"]
+
+        deck = []
+        for suit in suits:
+            for face in faces:
+                deck.append((suit, face))
 
 
 
