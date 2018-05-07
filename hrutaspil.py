@@ -57,26 +57,26 @@ while True:
     spilari1 = []
     spilari2 = []
     with open("hrutaspil.txt", "r") as r:
-        #opna textaskrá sem read og skilgreini hana sem f
+        #opna textaskrá sem read og skilgreini hana sem r
         for a in range(52):
             #læt textaskrá í forlykkju sem keyrir 52 sinnum
-            nafn = eval(r.readline())
+            nafn = (r.readline())
             #les línu fyrir nafn
-            thyngd = eval(r.readline())
+            thyngd = (r.readline())
             #les línu fyrir thyngd
-            mjolk = eval(r.readline())
+            mjolk = (r.readline())
             #les línu fyrir mjolk
-            ull = eval(r.readline())
+            ull = (r.readline())
             #les línu fyrir ull
-            born = eval(r.readline())
+            born = (r.readline())
             #les línu fyrir born
-            laeri = eval(r.readline())
+            laeri = (r.readline())
             #les línu fyrir laeri
-            frjo = eval(r.readline())
+            frjo = (r.readline())
             #les línu fyrir frjo
-            bak = eval(r.readline())
+            bak = (r.readline())
             #les línu fyrir bak
-            malir = eval(r.readline())
+            malir = (r.readline())
             #les línu fyrir malir
             r.readline()
             #les tóma línu 
@@ -220,23 +220,23 @@ while True:
         #opna textaskrá sem read og skilgreini hana sem f
             for a in range(52):
                 #læt textaskrá í forlykkju sem keyrir 52 sinnum
-                nafn = eval(r.readline())
+                nafn = (r.readline())
                 #les línu fyrir nafn
-                thyngd = eval(r.readline())
+                thyngd = (r.readline())
                 #les línu fyrir thyngd
-                mjolk = eval(r.readline())
+                mjolk = (r.readline())
                 #les línu fyrir mjolk
-                ull = eval(r.readline())
+                ull = (r.readline())
                 #les línu fyrir ull
-                born = eval(r.readline())
+                born = (r.readline())
                 #les línu fyrir born
-                laeri = eval(r.readline())
+                laeri = (r.readline())
                 #les línu fyrir laeri
-                frjo = eval(r.readline())
+                frjo = (r.readline())
                 #les línu fyrir frjo
-                bak = eval(r.readline())
+                bak = (r.readline())
                 #les línu fyrir bak
-                malir = eval(r.readline())
+                malir = (r.readline())
                 #les línu fyrir malir
                 f.readline()
                 #les tóma línu 
