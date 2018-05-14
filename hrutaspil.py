@@ -61,7 +61,11 @@ print("7.Bak", notandi[0].bak)
 print("8.Malir", notandi[0].malir)
 valNot = int(input("Veldu"))
 
-gildi =
+if valNot == 1:
+    val = "thyngd"
+elif val
+    
+if notandi[0].val > tolva[0].val:
 
 
 
